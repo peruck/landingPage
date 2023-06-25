@@ -22,7 +22,7 @@ body {
 
 }
 
-#header-main{
+#header-main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,7 @@ body {
 }
 
 #header-content {
-    display:flex
-    
+    display: flex;
 }
 
 #header-nav {
@@ -48,13 +47,12 @@ body {
     color: #F9FAF8;
 }
 
-#header-nav-links ul{
+#header-nav-links ul {
     display: flex;
     flex-direction: row;
     font-size: 18px;
 }
-#header-nav-links ul li{
+
+#header-nav-links ul li {
     padding: 0 1rem;
 }
-
-
