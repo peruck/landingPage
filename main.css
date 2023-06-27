@@ -1,3 +1,39 @@
 #main {
+    margin: 0 auto;
     color: #000;
+}
+
+#main h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    gap: 4rem;
+}
+
+#main-content-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+#main-content-cards>div {
+    flex: 1;
+}
+
+.main-content-cards-card {
+    border: 4px solid #3882f6;
+    height: 150px;
+    border-radius: 1rem;
 }
